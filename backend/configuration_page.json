@@ -1,0 +1,21 @@
+{
+  "name": "company Xd",
+  "nit": "123123123",
+  "init_date": "2021/03/02",
+  "final_date": "2022/03/02",
+  "principal_currency": "BOB",
+  "subsidiary":[
+    {
+      "name":"sucursal centro",
+      "direction":"direcction 1",
+      "areas":[
+        {"name": "ventas"},
+        {"name": "finanzas"}
+      ]
+    },
+    {
+      "name": "sucursal 2",
+      "direction": "direcction 2"
+    }
+  ]
+}
