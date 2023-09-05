@@ -1,0 +1,67 @@
+// https://jsoncrack.com/editor
+{
+  "plan_cuentas": [
+    {"name": "activo",
+      "currency": null,
+      "isClasiffier": true,
+      "affectInflation": true,
+      "report": true,
+      "money_rub": true,
+      "number_account": 1, 
+      // " level": el level lo define backend
+      "sub": [
+        {"name": "Activo 2",
+        "currency": null,
+        "isClasiffier": true,
+        "affectInflation": true,
+        "report": true,
+        "money_rub": true,
+        "number_account": 1,
+        "sub":[]},
+        {"name": "Activo 3",
+        "currency": null,
+        "isClasiffier": true,
+        "affectInflation": true,
+        "report": true,
+        "money_rub": true,
+        "number_account": 2,
+        "sub":[]} // null or empty ??
+      ]
+    },
+    {"name":"pasivo",
+      "currency": null,
+      "isClasiffier": true,
+      "affectInflation": true,
+      "report": true,
+      "money_rub": true,
+      "number_account": 2,
+      "sub": [
+        {"name":"Pasivo 2",
+        "currency": null,
+        "isClasiffier": true,
+        "affectInflation": true,
+        "report": true,
+        "money_rub": true,
+        "number_account": 1,
+        "sub":[]},
+
+        {"name":"Pasivo 3",
+        "currency": null,
+        "isClasiffier": true,
+        "affectInflation": true,
+        "report": true,
+        "money_rub": true,
+        "number_account": 2,
+        "sub":[
+          {"name":"PASivo 3.1",
+          "currency": null,
+          "isClasiffier": true,
+          "affectInflation": true,
+          "report": true,
+          "money_rub": true,
+          "number_account": 10,
+          "sub":[]}
+        ]}
+      ]}
+  ]
+}
