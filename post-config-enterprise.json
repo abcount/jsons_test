@@ -1,0 +1,80 @@
+{
+    "enterprise": {
+      "enterpriseName": "Example Name",
+      "dicCategory": "Technology",
+      "nit": "167242123132",
+      "enterpriseLocation": "Av. Ejemplo",
+      "contactMail": "example@gmail.com",
+      "contactName": "Name Of Contact",
+      "logo64b": "hjdahjsidhjaohdioaho88221jiubiudbuibui4vjihugufydtdtyddytdytdtdytdytdytdytdtydytdtybiu",
+      "subsidiaries": [
+        {
+          "name": "example name",
+          "address": "address example",
+          "areas": ["area1", "area2", "area3"]
+        },
+        {
+          "name": "example name 2",
+          "address": "address example 2",
+          "areas": ["area12", "area22", "area32"]
+        }
+      ],
+      "openingDate": "09-11-2023" // mm-dd-yyyy inicio de gestion del sistema contable
+    },
+    "currencyConfig": {
+      "principalCurrency": "Crypto Moneda",
+      "currencyList": [
+        {
+          "moneyName": "Dolares",
+          "abbreviationName": "USD",
+          "currency": 0 // Se utiliza cero por defecto para guardar en la BD
+        },
+        {
+          "moneyName": "Crypto Moneda",
+          "abbreviationName": "CM",
+          "currency": 0 // Se utiliza cero por defecto para guardar en la BD
+        }
+      ]
+    },
+    "accountablePlan": [
+      {
+        "accountCode": "1",
+        "nameAccount": "Pasivo",
+        "moneyRub": true, // Rubro Monetario,
+        "report": true, // if is balanceGeneral true : false
+        "classificator": true, // Si es true tiene cuentas hijas sino es transaccional
+        "level": 1,
+        "childrenAccounts": [
+          {
+            "accountCode": "11",
+            "nameAccount": "Pasivo Corriente",
+            "moneyRub": true, // Rubro Monetario,
+            "report": true, // if is balanceGeneral true : false
+            "classificator": true, // Si es true tiene cuentas hijas sino es transaccional
+            "level": 2,
+            "childrenAccounts": [
+              {
+                "accountCode": "111",
+                "nameAccount": "Pasivo Corriente Secundario Hijo",
+                "moneyRub": true, // Rubro Monetario,
+                "report": true, // if is balanceGeneral true : false
+                "classificator": false, // Si es true tiene cuentas hijas sino es transaccional
+                "level": 3,
+                "childrenAccounts": []
+              }
+            ]
+          },
+          {
+            "accountCode": "12",
+            "nameAccount": "Pasivo Corriente Fijo",
+            "moneyRub": true, // Rubro Monetario,
+            "report": true, // if is balanceGeneral true : false
+            "classificator": false, // Si es true tiene cuentas hijas sino es transaccional
+            "level": 2,
+            "childrenAccounts": []
+          }
+        ]
+      }
+    ]
+  }
+  
