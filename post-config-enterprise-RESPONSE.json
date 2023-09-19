@@ -1,0 +1,88 @@
+{
+    "data": {
+        "companyId": 1,
+        "dicCategory": "enabled",
+        "companyName": "Example Name",
+        "subsidiaryBuild": [
+            {
+                "subsidiaryId": 1,
+                "subsidiaryName": "example name",
+                "areaSubsidiaryBuild": [
+                    {
+                        "areaSubsidiaryId": 1,
+                        "areaId": 1,
+                        "areaName": "area1",
+                        "dicCategory": "Created"
+                    },
+                    {
+                        "areaSubsidiaryId": 2,
+                        "areaId": 2,
+                        "areaName": "area2",
+                        "dicCategory": "Created"
+                    },
+                    {
+                        "areaSubsidiaryId": 3,
+                        "areaId": 3,
+                        "areaName": "area3",
+                        "dicCategory": "Created"
+                    },
+                    {
+                        "areaSubsidiaryId": 4,
+                        "areaId": 4,
+                        "areaName": "area12",
+                        "dicCategory": "Created"
+                    }
+                ]
+            },
+            {
+                "subsidiaryId": 2,
+                "subsidiaryName": "example name 2",
+                "areaSubsidiaryBuild": [
+                    {
+                        "areaSubsidiaryId": 5,
+                        "areaId": 4,
+                        "areaName": "area12",
+                        "dicCategory": "Created"
+                    },
+                    {
+                        "areaSubsidiaryId": 6,
+                        "areaId": 5,
+                        "areaName": "area22",
+                        "dicCategory": "Created"
+                    },
+                    {
+                        "areaSubsidiaryId": 7,
+                        "areaId": 6,
+                        "areaName": "area32",
+                        "dicCategory": "Created"
+                    },
+                    {
+                        "areaSubsidiaryId": 8,
+                        "areaId": 1,
+                        "areaName": "area1",
+                        "dicCategory": "Created"
+                    }
+                ]
+            }
+        ],
+        "currencyConfig": [
+            {
+                "currencyId": 1,
+                "moneyName": "Dolares",
+                "abbreviation": "USD",
+                "currency": 0.0,
+                "isPrincipal": false
+            },
+            {
+                "currencyId": 2,
+                "moneyName": "Crypto Moneda",
+                "abbreviation": "CM",
+                "currency": 0.0,
+                "isPrincipal": true
+            }
+        ]
+    },
+    "message": null,
+    "success": true,
+    "errors": null
+}
