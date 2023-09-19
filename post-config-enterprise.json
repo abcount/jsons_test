@@ -22,7 +22,7 @@
       "openingDate": "09-11-2023" // mm-dd-yyyy inicio de gestion del sistema contable
     },
     "currencyConfig": {
-      "principalCurrency": "Crypto Moneda",
+      "principalCurrency": 0, // index of list 
       "currencyList": [
         {
           "moneyName": "Dolares",
