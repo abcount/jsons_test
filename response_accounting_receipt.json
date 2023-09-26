@@ -1,0 +1,71 @@
+{
+  "enterprise": {
+    "name": "Example 1",
+    "companyId": 1,
+  },
+  "subsidiaries": [
+    {
+      "subsidiaryId": 1,
+      "subsidiaryName": "Subsidiary 1",
+      "areaSubsidiary": [
+        {
+          "areaSubsidiaryId": 1,
+          "areaId": 1,
+          "areaName": "area1",
+        }
+      ]
+    },
+    {
+      "subsidiaryId": 2,
+      "subsidiaryName": "Subsidiary 2",
+      "areaSubsidiary": [
+        {
+          "areaSubsidiaryId": 2,
+          "areaId": 1,
+          "areaName": "area1",
+        },
+        {
+          "areaSubsidiaryId": 3,
+          "areaId": 3,
+          "areaName": "area1",
+        }
+      ]
+    }
+  ],
+  "transactionTypes": [
+    {
+      "transactionTypeId": 1,
+      "companyId": 1,
+      "type": "Type 1",
+      "description": "It's an example"
+    },
+    {
+      "transactionTypeId": 2,
+      "companyId": 1,
+      "type": "Type 2",
+      "description": "It's an example"
+    },
+    {
+      "transactionTypeId": 3,
+      "companyId": 1,
+      "type": "Type 3",
+      "description": "It's an example"
+    }
+  ],
+  "currency": [
+      {
+        "currencyId": 1,
+        "moneyName": "Dolares",
+        "abbreviation": "USD",
+        "currency": 0.0,
+        "isPrincipal": false
+      },
+      {
+        "currencyId": 2,
+        "moneyName": "Crypto Moneda",
+        "abbreviation": "CM",
+        "currency": 0.0,
+        "isPrincipal": true
+      }
+  ]
+}
