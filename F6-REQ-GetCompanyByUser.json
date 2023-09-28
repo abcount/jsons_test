@@ -1,0 +1,20 @@
+{
+  "company": [
+    {
+      "company_id": 1,
+      "company_name": "TechNova Solutions"
+    },
+    {
+      "company_id": 2,
+      "company_name": "GreenEco Ventures"
+    },
+    {
+      "company_id": 3,
+      "company_name": "StellarCraft Industries"
+    },
+    {
+      "company_id": 4,
+      "company_name": "AquaWave Technologies"
+    }
+  ]
+}
