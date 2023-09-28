@@ -1,7 +1,7 @@
 // api: GET /api/v1/user/company
 // No header, no payload
 
-// test api : https://raw.githubusercontent.com/abcount/jsons_test/main/F6-RES-GetCompanyByUser.json?token=GHSAT0AAAAAACHGEK72JV72ENCPERF74G2AZIU6HSA 
+ 
 {
   "company": [
     {
