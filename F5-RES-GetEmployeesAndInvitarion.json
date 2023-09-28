@@ -1,0 +1,64 @@
+// api: GET /api/v1/company/{id}/people?employee=true&invi=true
+// no header, no payload, 
+
+// id:number =  id of primary   ie. 1
+// employee:bool = if will request list of employee
+// invited: bool = will request list of people invited ?
+
+{
+  "employee":[
+    {
+      "employeeId": 1 ,
+      "name":"nombre de usuario 1",
+      "email":"correo electronico de usuario 1",
+      "urlProfilePicture": "https://bestprofilepictures.com/wp-content/uploads/2021/04/Cool-Picture-Wallpaper-473x1024.jpg"
+    },
+    {
+      "employeeId": 5,
+      "name": "nombre de usuario 5",
+      "email": "correo electronico de usuario 5",
+      "urlProfilePicture": "https://bestprofilepictures.com/wp-content/uploads/2021/04/Cool-Picture-Wallpaper-473x1024.jpg"
+    },
+    {
+      "employeeId": 20,
+      "name": "nombre de usuario 20",
+      "email": "correo electronico de usuario 20",
+      "urlProfilePicture": "https://bestprofilepictures.com/wp-content/uploads/2021/04/Cool-Picture-Wallpaper-473x1024.jpg"
+    },
+    {
+      "employeeId": 27,
+      "name": "nombre de usuario 27",
+      "email": "correo electronico de usuario 27",
+      "urlProfilePicture": "https://bestprofilepictures.com/wp-content/uploads/2021/04/Cool-Picture-Wallpaper-473x1024.jpg"
+    },
+    {
+      "employeeId": 300,
+      "name": "nombre de usuario 300",
+      "email": "correo electronico de usuario 300",
+      "urlProfilePicture": "https://bestprofilepictures.com/wp-content/uploads/2021/04/Cool-Picture-Wallpaper-473x1024.jpg"
+    }
+  ],
+  "invitation":[
+    {
+      "invitationId": 1,
+      "invited": "nombre de usuario 25",
+      "invitedId" : 25 ,
+      "email": "correo electronico de usuario 25",
+      "urlProfilePicture": "https://bestprofilepictures.com/wp-content/uploads/2021/04/Cool-Picture-Wallpaper-473x1024.jpg"
+    },
+    {
+      "invitationId": 2,
+      "invited": "nombre de usuario 100",
+      "invitedId": 100,
+      "email": "correo electronico de usuario 100",
+      "urlProfilePicture": "https://bestprofilepictures.com/wp-content/uploads/2021/04/Cool-Picture-Wallpaper-473x1024.jpg"
+    },
+    {
+      "invitationId": 3,
+      "invited": "nombre de usuario 101",
+      "invitedId": 101,
+      "email": "correo electronico de usuario 101",
+      "urlProfilePicture": "https://bestprofilepictures.com/wp-content/uploads/2021/04/Cool-Picture-Wallpaper-473x1024.jpg"
+    }
+  ]
+}
