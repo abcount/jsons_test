@@ -1,20 +1,28 @@
+// api: GET /api/v1/user/company
+// No header, no payload
+
+// test api
 {
   "company": [
     {
       "company_id": 1,
-      "company_name": "TechNova Solutions"
+      "company_name": "TechNova Solutions",
+      "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png"
     },
     {
       "company_id": 2,
-      "company_name": "GreenEco Ventures"
+      "company_name": "GreenEco Ventures",
+      "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png"
     },
     {
       "company_id": 3,
-      "company_name": "StellarCraft Industries"
+      "company_name": "StellarCraft Industries",
+      "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png"
     },
     {
       "company_id": 4,
-      "company_name": "AquaWave Technologies"
+      "company_name": "AquaWave Technologies",
+      "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png"
     }
   ]
 }
