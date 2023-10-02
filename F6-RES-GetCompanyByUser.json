@@ -5,23 +5,23 @@
 {
   "company": [
     {
-      "company_id": 1,
-      "company_name": "TechNova Solutions",
+      "companyId": 1,
+      "companyName": "TechNova Solutions",
       "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png"
     },
     {
-      "company_id": 2,
-      "company_name": "GreenEco Ventures",
+      "companyId": 2,
+      "companyName": "GreenEco Ventures",
       "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png"
     },
     {
-      "company_id": 3,
-      "company_name": "StellarCraft Industries",
+      "companyId": 3,
+      "companyName": "StellarCraft Industries",
       "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png"
     },
     {
-      "company_id": 4,
-      "company_name": "AquaWave Technologies",
+      "companyId": 4,
+      "companyName": "AquaWave Technologies",
       "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png"
     }
   ]
