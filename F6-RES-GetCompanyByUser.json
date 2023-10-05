@@ -7,22 +7,26 @@
     {
       "companyId": 1,
       "companyName": "TechNova Solutions",
-      "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png"
+      "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png",
+      "userId": 2
     },
     {
       "companyId": 2,
       "companyName": "GreenEco Ventures",
       "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png"
+      "userId": 5
     },
     {
       "companyId": 3,
       "companyName": "StellarCraft Industries",
-      "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png"
+      "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png",
+      "userId": 10
     },
     {
       "companyId": 4,
       "companyName": "AquaWave Technologies",
-      "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png"
+      "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png",
+      "userId": 20
     }
   ]
 }
