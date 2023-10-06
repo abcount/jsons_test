@@ -2,8 +2,8 @@
 // No header, no payload
 
  
-{
-  "company": [
+
+[
     {
       "companyId": 1,
       "companyName": "TechNova Solutions",
@@ -28,5 +28,5 @@
       "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png",
       "userId": 20
     }
-  ]
-}
+]
+
