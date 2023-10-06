@@ -3,7 +3,8 @@
 
  
 
-[
+{
+ "data": [
     {
       "companyId": 1,
       "companyName": "TechNova Solutions",
@@ -28,5 +29,8 @@
       "urlIconImage": "https://static.javatpoint.com/computer/images/what-is-the-url.png",
       "userId": 20
     }
-]
-
+],
+ "message": null,
+ "success":true,
+ "errors": null
+}
