@@ -1,0 +1,79 @@
+{
+    "data": {
+        "areasAndSubs": [
+            {
+                "subsidiaryId": 1,
+                "subsidiaryName": "sub1",
+                "areas": [
+                    {
+                        "areaId": 1,
+                        "areaName": "mkt",
+                        "areaSubsidiaryId": 1
+                    },
+                    {
+                        "areaId": 2,
+                        "areaName": "disneo",
+                        "areaSubsidiaryId": 2
+                    }
+                ]
+            },
+            {
+                "subsidiaryId": 2,
+                "subsidiaryName": "sub2",
+                "areas": [
+                    {
+                        "areaId": 1,
+                        "areaName": "mkt",
+                        "areaSubsidiaryId": 3
+                    },
+                    {
+                        "areaId": 2,
+                        "areaName": "disneo",
+                        "areaSubsidiaryId": 4
+                    }
+                ]
+            },
+            {
+                "subsidiaryId": 3,
+                "subsidiaryName": "sub3",
+                "areas": [
+                    {
+                        "areaId": 1,
+                        "areaName": "mkt",
+                        "areaSubsidiaryId": 5
+                    },
+                    {
+                        "areaId": 2,
+                        "areaName": "disneo",
+                        "areaSubsidiaryId": 6
+                    }
+                ]
+            }
+        ],
+        "roles": [
+            {
+                "roleId": 1,
+                "roleShortName": "CAN_ADD_VOUCHER",
+                "roleDescription": "Agregar comprobantes"
+            },
+            {
+                "roleId": 2,
+                "roleShortName": "CAN_EDIT_VOUCHER",
+                "roleDescription": "Editar comprobantes"
+            },
+            {
+                "roleId": 3,
+                "roleShortName": "CAN_GENERATE_REPORT",
+                "roleDescription": "Generar reportes"
+            },
+            {
+                "roleId": 4,
+                "roleShortName": "CAN_ADD_EXCHANGE",
+                "roleDescription": "Agregar tasa de cambio"
+            }
+        ]
+    },
+    "message": null,
+    "success": true,
+    "errors": null
+}
