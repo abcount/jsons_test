@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "fullName": "Alan Wiler Zarate Chino",
+            "userName": "alan123",
+            "email": "alnzarate@gmail.com",
+            "imagePath": "http://localhost:8080/users/1/images/profiLe"
+        }
+    ],
+    "message": null,
+    "success": true,
+    "errors": null
+}
