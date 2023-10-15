@@ -8,12 +8,14 @@
                     {
                         "areaId": 1,
                         "areaName": "mkt",
-                        "areaSubsidiaryId": 1
+                        "areaSubsidiaryId": 1,
+                        "status":false
                     },
                     {
                         "areaId": 2,
                         "areaName": "disneo",
-                        "areaSubsidiaryId": 2
+                        "areaSubsidiaryId": 2,
+                        "status":false
                     }
                 ]
             },
@@ -24,12 +26,14 @@
                     {
                         "areaId": 1,
                         "areaName": "mkt",
-                        "areaSubsidiaryId": 3
+                        "areaSubsidiaryId": 3,
+                        "status":false
                     },
                     {
                         "areaId": 2,
                         "areaName": "disneo",
-                        "areaSubsidiaryId": 4
+                        "areaSubsidiaryId": 4,
+                        "status":false
                     }
                 ]
             },
@@ -40,12 +44,14 @@
                     {
                         "areaId": 1,
                         "areaName": "mkt",
-                        "areaSubsidiaryId": 5
+                        "areaSubsidiaryId": 5,
+                        "status":false
                     },
                     {
                         "areaId": 2,
                         "areaName": "disneo",
-                        "areaSubsidiaryId": 6
+                        "areaSubsidiaryId": 6,
+                        "status":false
                     }
                 ]
             }
