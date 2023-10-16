@@ -60,22 +60,26 @@
             {
                 "roleId": 1,
                 "roleShortName": "CAN_ADD_VOUCHER",
-                "roleDescription": "Agregar comprobantes"
+                "roleDescription": "Agregar comprobantes",
+                "status":false
             },
             {
                 "roleId": 2,
                 "roleShortName": "CAN_EDIT_VOUCHER",
-                "roleDescription": "Editar comprobantes"
+                "roleDescription": "Editar comprobantes",
+                "status":false
             },
             {
                 "roleId": 3,
                 "roleShortName": "CAN_GENERATE_REPORT",
-                "roleDescription": "Generar reportes"
+                "roleDescription": "Generar reportes",
+                "status":false
             },
             {
                 "roleId": 4,
                 "roleShortName": "CAN_ADD_EXCHANGE",
-                "roleDescription": "Agregar tasa de cambio"
+                "roleDescription": "Agregar tasa de cambio",
+                "status":false
             }
         ]
     },
